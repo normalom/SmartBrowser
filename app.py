@@ -9,7 +9,7 @@ CORS(app)
 
 wikipedia.set_lang("en")
 
-OPENAI_API_KEY = os.getenv("OPEN_API_KEY_HERE")
+OPENAI_API_KEY = os.getenv("OPEN_API_KEY")
 
 @app.route("/")
 def home():
